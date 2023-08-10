@@ -5,11 +5,27 @@
     <button type="submit">Login</button>
 </form>
 
-<h3>Formulário de contato</h3>
+<h3>Formulário de contato simples</h3>
 <form>
     <input type="text" placeholder="Nome"><br/>
     <input type="text" placeholder="Gênero"><br/>
     <input type="text" placeholder="Assunto"><br/>
     <textarea placeholder="Mensagem" rows="5" maxlength="50"></textarea><br/><br/>
+    <button type="submit">Enviar</button>
+</form>
+
+<h3>Formulário de contato complexo</h3>
+<form>
+    <input type="text" placeholder="Nome"><br/><br/>
+    <input type="radio" name="genero"/> Masculino<br/>
+    <input type="radio" name="genero"/> Feminino <br/> 
+    <input type="radio" name="genero"/> Não-binário <br/><br/> 
+    <select>
+        <option>Sugestão</option>
+        <option>Dúvidas</option>
+        <option>Elogios</option>
+    </select><br/>
+    <textarea placeholder="Mensagem" rows="5" maxlength="50"></textarea><br/><br/>
+    <input type="file"><br/><br/>
     <button type="submit">Enviar</button>
 </form>
